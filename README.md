@@ -1,6 +1,6 @@
 # Muhammadan Way Clip Studio 🎬🕌
 
-An open-source, AI-powered video editing platform designed specifically for Islamic content creators. It transforms long-form suhbhas (lectures) and nasheeds into highly engaging, viral short-form content (TikTok, Reels, Shorts) in seconds.
+An open-source, AI-powered video editing platform designed specifically for Shaykh Nurjan Q and Mureeds. It transforms long-form suhbhas (lectures) and nasheeds into highly engaging, viral short-form content (TikTok, Reels, Shorts) in seconds.
 
 ## ✨ Features
 
