@@ -1,0 +1,14 @@
+FROM node:22-bullseye-slim
+
+# Install ffmpeg which is required by fluent-ffmpeg
+RUN apt-get update && \
+    apt-get install -y ffmpeg && \
+    rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY package*.json ./
+RUN npm install --production
+COPY . .
+
+EXPOSE 7676
+CMD ["npm", "start"]

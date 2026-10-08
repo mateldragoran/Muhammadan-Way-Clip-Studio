@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  clip-backend:
+    build: .
+    container_name: clip-backend
+    ports:
+      - "7676:7676"
+    env_file:
+      - .env
+    restart: unless-stopped
